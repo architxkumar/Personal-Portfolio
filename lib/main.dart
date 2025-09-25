@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:personal_portfolio/home.dart';
+import 'package:personal_portfolio/landing_desktop.dart';
+import 'package:personal_portfolio/landing_mobile.dart';
 
 void main() => runApp(PersonalPortfolioApp());
 
@@ -9,9 +10,11 @@ class PersonalPortfolioApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.dark,
       title: 'Personal Portfolio',
       home: LayoutBuilder(
-        builder: (context, constraints) => (constraints.maxWidth < 800)
+        builder: (context, constraints) => (constraints.maxWidth < 700)
             ? MobileLandingPage()
             : DesktopLandingPage(),
       ),
