@@ -11,7 +11,7 @@ class PersonalPortfolioApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.system,
       title: 'Personal Portfolio',
       home: LayoutBuilder(
         builder: (context, constraints) => (constraints.maxWidth < 700)
