@@ -4,9 +4,11 @@ A fun and simple portfolio web app built in Flutter to learn about adaptive resp
 
 This is a [submission project](https://roadmap.sh/projects/portfolio-website) for [roadmap.sh](https://roadmap.sh).
 
+The web app is live on [GitHub Pages](https://architxkumar.github.io/Personal-Portfolio/)
+
 ## Features
 
-- Adaptive responsive design (Breakpoint at 600px)
+- Adaptive responsive design (Breakpoint at 800px)
 - Material Design theming
 - Redirecting profile links
 - Auto theme Mode matching your system
