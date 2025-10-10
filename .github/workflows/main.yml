@@ -21,9 +21,7 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
       - name: Build Web
-        # The repository name shouldn't be hardcoded but since the scope of the project is fairly simple, so it's cool.
-        # Just keep in mind that incase you change the repo name, it will break the CI/CD Pipeline
-        run: flutter build web --base-href /Personal-Portfolio/
+        run: flutter build web
       - name: Upload Web Build Artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
