@@ -4,7 +4,7 @@ A fun and simple portfolio web app built in Flutter to learn about adaptive resp
 
 This is a [submission project](https://roadmap.sh/projects/portfolio-website) for [roadmap.sh](https://roadmap.sh).
 
-The web app is live on [GitHub Pages](https://architxkumar.github.io/Personal-Portfolio/)
+The web app is live on [architxkumar.dev](https://architxkumar.dev/)
 
 ## Features
 
